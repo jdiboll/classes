@@ -39,9 +39,36 @@ function expect(target) {
 
 //                DO NOT MOTIFY ABOVE THIS LIKE
 // â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“
+class Dog {
+	
+	constructor (dogParams) {
+		dogParams = dogParams || {};
+		this.color = dogParams.color;
+		this.hungry = dogParams.hungry;
+		this.status = dogParams.status;
+		this.owner = dogParams.owner;
+	}
+		
+}
+class Human {
+
+	constructor (humanParams) {
+		humanParams = humanParams || {};
+		this.cool = humanParams.cool;
+		
+		
+	}
+
+	pet(dog) {
+	dog.status = "happy";
+}
+	feed(dog) {
+	dog.hungry != "hungry";
+
+}
+}
 
 
-//              YOUR CODE GOES HERE AND ONLY HERE
 
 
 // â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘â†‘
