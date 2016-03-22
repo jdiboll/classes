@@ -6,6 +6,6 @@ class Dog {
 		this.hungry = dogParams.hungry;
 		this.status = dogParams.status;
 		this.owner = dogParams.owner;
-	}
-		
+}		
 }
+  export default Dog;

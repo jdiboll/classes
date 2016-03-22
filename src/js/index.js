@@ -39,39 +39,40 @@ function expect(target) {
 
 //                DO NOT MOTIFY ABOVE THIS LIKE
 // â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“
+import Dog from './Dog';
+import Human from './Human';
 
 
 
-
-class Dog {
+//class Dog {
 	
-	constructor (dogParams) {
-		dogParams = dogParams || {};
-		this.color = dogParams.color;
-		this.hungry = dogParams.hungry;
-		this.status = dogParams.status;
-		this.owner = dogParams.owner;
-	}
+	//constructor (dogParams) {
+		//dogParams = dogParams || {};
+		//this.color = dogParams.color;
+		//this.hungry = dogParams.hungry;
+		//this.status = dogParams.status;
+		//this.owner = dogParams.owner;
+	//}
 		
-}
-class Human {
+//}
+//class Human {
 
-	constructor (humanParams) {
-		humanParams = humanParams || {};
-		this.cool = humanParams.cool;
+	//constructor (humanParams) {
+		//humanParams = humanParams || {};
+		//t//his.cool = humanParams.cool;
 		
 		
-	}
+	//}
 	
-	 pet(dog) {
-	dog.status = "happy";
-} 
+	 //pet(dog) {
+	//dog.status = "happy";
+//} 
 
-	feed(dog) {
-	dog.hungry != "hungry";
+	//feed(dog) {
+	//dog.hungry != "hungry";
 
-}
-}
+//}
+//}
 
 
 

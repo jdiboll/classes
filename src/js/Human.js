@@ -13,6 +13,6 @@ class Human {
 feed(dog) {
 	dog.hungry != hungry;
 
-
 }
 }
+export default Human;
