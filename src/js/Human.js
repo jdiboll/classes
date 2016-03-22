@@ -6,7 +6,13 @@ class Human {
 	}
 
 
-pet(dog) {
+ pet(dog) {
 	dog.status === happy;
+}
+
+feed(dog) {
+	dog.hungry != hungry;
+
+
 }
 }

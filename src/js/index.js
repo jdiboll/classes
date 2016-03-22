@@ -17,15 +17,15 @@ function it(description, contents){
 // Ex: expect(sadie.color).toBe('black'); // should return true
 function expect(target) {
   return {
-    toBe: function(expectation) {
-      if (target === expectation) {
-        console.log('\n     %cPASSED', 'color:green;', 'Expected', target, 'to be', expectation );
-        return true;
-      } else {
-        console.log('\n     %cFAILED', 'color:red;', 'Expected', target, 'to be', expectation );
-        return false;
-      }
-    }
+	toBe: function(expectation) {
+	  if (target === expectation) {
+		console.log('\n     %cPASSED', 'color:green;', 'Expected', target, 'to be', expectation );
+		return true;
+	  } else {
+		console.log('\n     %cFAILED', 'color:red;', 'Expected', target, 'to be', expectation );
+		return false;
+	  }
+	}
   }
 }
 
@@ -39,6 +39,10 @@ function expect(target) {
 
 //                DO NOT MOTIFY ABOVE THIS LIKE
 // â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“
+
+
+
+
 class Dog {
 	
 	constructor (dogParams) {
@@ -58,10 +62,11 @@ class Human {
 		
 		
 	}
-
-	pet(dog) {
+	
+	 pet(dog) {
 	dog.status = "happy";
-}
+} 
+
 	feed(dog) {
 	dog.hungry != "hungry";
 
