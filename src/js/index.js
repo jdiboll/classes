@@ -39,11 +39,18 @@ function expect(target) {
 
 //                DO NOT MOTIFY ABOVE THIS LIKE
 // â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“
-import Dog from './Dog';
-import Human from './Human';
+//import Dog from './Dog';
+//import Human from './Human';
 
 
+//pet(dog) {
+	//dog.status =// happy;
+//}
 
+//feed(dog) {
+	//dog.hungry != hungry;
+
+//}
 //class Dog {
 	
 	//constructor (dogParams) {

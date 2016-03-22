@@ -6,13 +6,13 @@ class Human {
 	}
 
 
- pet(dog) {
-	dog.status === happy;
-}
+ //pet(dog) {
+	//dog.status === happy;
+//}
 
-feed(dog) {
-	dog.hungry != hungry;
+//feed(dog) {
+	//dog.hungry != hungry;
 
+//}
 }
-}
-export default Human;
+//export default Human;

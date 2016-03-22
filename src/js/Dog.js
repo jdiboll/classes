@@ -2,10 +2,10 @@ class Dog {
 	
 	constructor (dogParams) {
 		dogParams = dogParams || {};
-		this.color = dogParams.color;
+		this.color = black;
 		this.hungry = dogParams.hungry;
-		this.status = dogParams.status;
+		this.status = normal;
 		this.owner = dogParams.owner;
 }		
 }
-  export default Dog;
+  //export default Dog;
