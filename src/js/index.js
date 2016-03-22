@@ -39,47 +39,49 @@ function expect(target) {
 
 //                DO NOT MOTIFY ABOVE THIS LIKE
 // â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“â†“
-//import Dog from './Dog';
-//import Human from './Human';
 
 
-//pet(dog) {
-	//dog.status =// happy;
-//}
 
-//feed(dog) {
-	//dog.hungry != hungry;
-
-//}
-//class Dog {
+class Dog {
 	
-	//constructor (dogParams) {
-		//dogParams = dogParams || {};
-		//this.color = dogParams.color;
-		//this.hungry = dogParams.hungry;
-		//this.status = dogParams.status;
-		//this.owner = dogParams.owner;
-	//}
-		
-//}
-//class Human {
+	constructor (passedOptions = {}) {
+		var defaultOptions = {
+		color: "blue-red",
+		hungry: true,
+		status: "normal",
+	}
+	Object.assign(this, defaultOptions, passedOptions)
+}
+}	
+	// var passedOptions = 
+		// this.status = options.status;
+		// this.color = options.color;
+		// this.hungry = options.hungry;
 
-	//constructor (humanParams) {
-		//humanParams = humanParams || {};
-		//t//his.cool = humanParams.cool;
 		
-		
-	//}
+		//var passedOptions = 
+		//this.status = options.status;
+		//this.color = options.color;
+		//this.hungry = options.hungry;
+
+class Human {
+
+	constructor (passedOptions = {}) {
+		var defaultOptions = {
+		cool: false,
+	}
+	Object.assign(this, defaultOptions, passedOptions)
+ }
 	
-	 //pet(dog) {
-	//dog.status = "happy";
-//} 
+	 pet(dog) {
+	dog.status = "happy";
+} 
 
-	//feed(dog) {
-	//dog.hungry != "hungry";
+	feed(dog) {
+	dog.hungry = false;
 
-//}
-//}
+}
+}
 
 
 
